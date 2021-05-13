@@ -1,0 +1,24 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="design_fab_size_normal">40dp</dimen>
+    <dimen name="design_fab_size_mini">30dp</dimen>
+    <dimen name="fab_margin">6dp</dimen>
+    <integer name="recycler_weigh">6</integer>
+    <integer name="relative_weigh">94</integer>
+    <integer name="num_column">6</integer>
+    <dimen name="height">200dp</dimen>
+    <dimen name="mainTextSize">6.5pt</dimen>
+    <dimen name="mainSpinTextSize">6pt</dimen>
+
+    <dimen name="GridVerticalSpacing">10dp</dimen>
+
+    <integer name="row_iv_weight">58</integer>
+    <integer name="row_tv_weight">19</integer>
+    <integer name="row_spin_weight">11</integer>
+    <integer name="row_buttons_weight">14</integer>
+
+</resources>

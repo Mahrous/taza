@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+
+        android:background="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dp">
+
+        <TextView
+            android:id="@+id/price_order"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_weight="1.3"
+            android:background="@color/w"
+            android:gravity="center"
+
+            android:text=""
+            android:textColor="#000"
+            android:textSize="18dp"
+
+            />
+
+        <TextView
+            android:id="@+id/sent_qu"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.3"
+            android:background="@color/w"
+            android:gravity="center"
+            android:text=""
+            android:textColor="#000"
+            android:textSize="18dp"
+
+            />
+
+        <TextView
+            android:id="@+id/qu"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_weight="1.7"
+            android:background="@color/w"
+            android:gravity="center"
+            android:text=""
+            android:textColor="#000"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/type_order"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="2dp"
+            android:layout_weight="4"
+            android:background="@color/w"
+            android:gravity="center"
+            android:text=""
+            android:textColor="#000"
+            android:textSize="18dp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

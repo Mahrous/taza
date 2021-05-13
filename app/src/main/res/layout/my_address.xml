@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/setting_l_layout_address"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="10dp"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:title=" اختر عنوان ليصلك عليه الطلب"
+        app:titleTextColor="@color/w">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="10pt"
+            android:textStyle="bold"
+            android:textColor="@color/w"
+            android:text=" اختر عنوان ليصلك عليه الطلب" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+
+    <Spinner
+        android:id="@+id/my_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        />
+
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:weightSum="9">
+
+
+        <Button
+            android:id="@+id/chose_adres_bt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:background="@color/colorAccent"
+            android:shadowColor="#686b6a"
+            android:text="موافق"
+            android:textAllCaps="false"
+            android:textColor="#FFF"
+            android:textSize="22dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/user_add_new_adres_bt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:background="@color/colorPrimary"
+            android:shadowColor="#686b6a"
+            android:text="إضافة عنوان"
+            android:textAllCaps="false"
+            android:textColor="#FFF"
+            android:layout_marginLeft="40dp"
+
+            android:textSize="22dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/setting_l_layout_address"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="10dp"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:title=" اختر منطقتك"
+        app:titleTextColor="@color/w">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="10pt"
+            android:textStyle="bold"
+            android:textColor="@color/w"
+            android:text=" اختر منطقتك" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:paddingTop="6dp"
+
+        >
+
+
+        <Spinner
+            android:id="@+id/new_user_add_adres_city"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="4" />
+
+        <Spinner
+            android:id="@+id/new_user_adres_country"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4" />
+
+    </LinearLayout>
+    <Spinner
+        android:id="@+id/new_user_adress_elhai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+       />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:weightSum="9">
+
+        <Button
+            android:layout_marginLeft="5dp"
+            android:id="@+id/subA_newAccount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:background="@color/colorAccent"
+            android:shadowColor="#686b6a"
+            android:text="حساب جديد"
+            android:textAllCaps="false"
+            android:textColor="#FFF"
+            android:textSize="22dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/subA_logIn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_weight="3"
+            android:background="@color/colorPrimary"
+            android:shadowColor="#686b6a"
+            android:text="تسجيل الدخول"
+            android:textAllCaps="false"
+            android:textColor="#FFF"
+            android:textSize="22dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/nu_add_adres"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:background="@color/colorPrimary"
+            android:shadowColor="#686b6a"
+            android:text="موافق"
+            android:layout_marginRight="5dp"
+            android:textAllCaps="false"
+            android:textColor="#FFF"
+            android:textSize="22dp"
+            android:textStyle="bold" />
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

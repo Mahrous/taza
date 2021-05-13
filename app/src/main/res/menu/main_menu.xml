@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <group android:checkableBehavior="single">
+
+    <item
+        android:id="@+id/myOrdersSI"
+        android:icon="@drawable/basket"
+        android:title="طلباتى"
+        app:showAsAction="never"/>
+
+    <!--<item android:id="@+id/loginSubItem"
+        android:icon="@drawable/ic_iconfinder_login_account_enter_door_3005767"
+        android:title="تسجيل الدخول"
+        app:showAsAction="never"/>
+-->
+    <item android:id="@+id/signUpSubItem"
+        android:icon="@drawable/ic_person_add"
+        android:title="مستخدم جديد"
+        app:showAsAction="never"
+        />
+
+
+<!--    <item android:id="@+id/registerSubItem"-->
+<!--        android:icon="@drawable/ic_more_vert_black_24dp"-->
+<!--        android:title="تسجيل مستخدم"-->
+<!--        app:showAsAction="never"/>-->
+
+
+    <item android:id="@+id/careersSubItem"
+        android:icon="@drawable/ic_ordars"
+        android:title="وظائف"
+        android:visible="false"
+
+
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/transferSubItem"
+        android:icon="@drawable/ic_delivery"
+        android:title="تحركات"
+        android:visible="false"
+
+        app:showAsAction="never">
+    </item>
+    <item android:id="@+id/salesSubItem"
+        android:icon="@drawable/ic_document"
+        android:title="تسجيل مبيعات"
+        android:visible="false"
+
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/purchasesSubItem"
+        android:icon="@drawable/basket"
+        android:title="تسجيل مشتروات"
+        android:visible="false"
+
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/transesSubItem"
+        android:icon="@drawable/ic_transf"
+        android:title="تحويلات"
+        android:visible="false"
+
+        app:showAsAction="never"/>
+
+
+    <item android:id="@+id/recruitSubItem"
+        android:icon="@drawable/ic_addworker"
+        android:title="توظيف"
+        android:visible="false"
+        app:showAsAction="never">
+    </item>
+        <item android:id="@+id/storesSubItem"
+            android:icon="@drawable/ic_iconfinder_22_icons_2191553"
+            android:title="مخازن"
+            android:visible="false"
+
+            app:showAsAction="never"/>
+
+        <item android:id="@+id/itemsSubItem"
+            android:icon="@drawable/ic_menee"
+            android:title="الأصناف"
+            android:visible="false"
+
+            app:showAsAction="never"/>
+
+
+
+    <item android:id="@+id/geoSubItem"
+        android:icon="@drawable/ic_iconfinder_location_115718"
+        android:title="جغرافيا"
+        android:visible="false"
+
+        app:showAsAction="never">
+    </item>
+
+        <item android:id="@+id/systemSubItem"
+            android:icon="@drawable/ic_setting"
+            android:title="ضبط النظام"
+            app:showAsAction="never"
+            android:visible="false"
+            />
+
+    <item android:id="@+id/logoutSubItem"
+        android:icon="@drawable/ic_log_out"
+        android:title="تسجيل الخروج"
+        android:visible="false"
+        app:showAsAction="never"
+        />
+
+        <item android:title="" >
+
+        <menu>
+        <item android:id="@+id/praivcy"
+            android:icon="@drawable/ic_privacy"
+            android:title="سياسة الخصوصية"
+            app:showAsAction="never"
+            />
+        <item android:id="@+id/about"
+            android:icon="@drawable/ic_about"
+            android:title="حول"
+            app:showAsAction="never"
+            />
+        </menu>
+        </item>
+
+    </group>
+
+</menu>
+
+    <!--        <item android:id="@+id/settings"-->
+    <!--            android:icon="@drawable/ic_more_vert_black_24dp"-->
+    <!--            android:title="الأعدادت"-->
+    <!--            app:showAsAction="never"-->
+    <!--            />-->

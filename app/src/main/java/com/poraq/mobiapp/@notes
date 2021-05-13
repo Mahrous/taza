@@ -1,0 +1,34 @@
+on launch
+delete orders
+
+
+//TODO
+
+app intro
+add fab menu
+revise address
+revise get system
+مرتجع بالكامل --- مراعاة مصاريف التوصيل
+
+
+
+
+
+online home shopping
+تسوق منزلى اون لاين
+
+تطبيق لمساعدة المستخدمين و خاصة ربة المنزل على اختيار الاحتياجات الأساسية للمنزل من خضار و فاكهة و بقالة و بعض الأجهزة و الخردوات, مع تحديد الاحتياجات متاح معرفة سعر كل سلعة و كذلك اجمال الثمن, و كذلك معرفة مقابل التوصيل لمنطقتك, و كذلك تحديد زمن الوصول و العنوان المراد التوصيل له ...
+ann application that help users especially house keeper to choose their home needs from vegetables, fruits, grocery ... etc, with their prices and total cost for selected goods and so delivery fees for your area ...
+
+
+
+pur   from, supplier   +ttO       to, store -tto
+purR   from, store +tto        to,supplier   -ttO
+
+sales   from, store   +ttO       to, client -tto
+salesR   from,client +tto        to,store   -ttO
+
+cash  from store  +tto                 to supplier -tto
+cash  from client  +tto                 to store -tto
+
+moneyTrans  from +tto                   to -tto

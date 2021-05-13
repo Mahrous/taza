@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StoresActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:background="@color/colorPrimary"
+            android:title="اضافة مخزن"
+            app:titleTextColor="@color/w">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="اضافة مخزن"
+                android:textColor="@color/w"
+                android:textSize="10pt"
+                android:textStyle="bold" />
+
+        </androidx.appcompat.widget.Toolbar>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:shrinkColumns="*"
+            android:stretchColumns="*">
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="25dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="10dp">
+
+                <Button
+
+                    android:id="@+id/newStoreBtn"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".65"
+                    android:background="@color/colorAccent"
+                    android:text="مخزن جديد"
+                    android:textColor="@color/w"
+                    android:textStyle="bold" />
+
+                <Spinner
+                    android:id="@+id/storesSp"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"></Spinner>
+            </TableRow> <!-- last name -->
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="25dp"
+
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp">
+
+                <EditText
+                    android:id="@+id/userNameText"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:background="@drawable/shap1" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="12dip"
+                    android:text="الاسم"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </TableRow> <!-- last name -->
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="25dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="15dp">
+
+                <Spinner
+                    android:id="@+id/adrsNhsSp"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"/>
+
+                <Spinner
+
+                    android:id="@+id/adrsTnsSp"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"/>
+
+                <Spinner
+                    android:id="@+id/adrsGvsSp"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"></Spinner>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="25dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp">
+
+                <EditText
+                    android:id="@+id/adrsAreaET"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:background="@drawable/shap1" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="12dip"
+                    android:text="المنطقة"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="25dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="15dp">
+
+                <EditText
+                    android:id="@+id/adrsDtsET"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:background="@drawable/shap1" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="11dip"
+                    android:text="عنوان"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:weightSum="3">
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="25dp">
+
+                <ListView
+                    android:id="@+id/storeAreasLV"
+                    android:layout_width="0dp"
+                    android:layout_height="250dp"
+                    android:layout_weight="80"/>
+
+                <!--<TextView-->
+                <!--android:id="@+id/storeAreasTV"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:padding="18dip"-->
+
+                <!--android:textColor="#000"-->
+                <!--android:textSize="18sp" />-->
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="10dp"
+                android:weightSum="4">
+
+                <Button
+                    android:id="@+id/saveNewUserBtn"
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_weight="1.7"
+                    android:textSize="20sp"
+                    android:textColor="@color/w"
+                    android:textStyle="bold"
+                    android:background="@color/colorPrimary"
+                    android:layout_marginRight="20dp"
+                    android:text="حفظ" />
+
+                <Button
+                    android:id="@+id/addNhBtn"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.7"
+                    android:background="@color/colorAccent"
+                    android:text="إضافة منطقة"
+                    android:textColor="@color/w"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+
+</ScrollView>
